@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS Todo App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Vite + TS Todo App</h1>
+        <form id="myForm">
+          <input required maxlength="300" name="todo" type="text" id="todo" placeholder="Enter Todo" />
+          <button type="submit">Add Todo</button>
+        </form>
+        <div class="todoContainer"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
